@@ -38,7 +38,7 @@ public class WakeLockService extends Service {
         return new Notification.Builder(this,CHANNEL_ID)
                 .setContentTitle("Standby Network Test")
                 .setContentText("WifiLock only is active")
-                .setSmallIcon(android.R.drawable.stat_sys_wifi)
+                .setSmallIcon(android.R.drawable.ic_lock_idle_lock)
                 .setOngoing(true).build();
     }
 
